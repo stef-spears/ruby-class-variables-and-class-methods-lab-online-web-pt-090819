@@ -40,5 +40,6 @@ class Song
     @@artists.inject(Hash.new(0)) do |hash, item|
       hash[item] += 1; hash 
   end 
-  
+end 
+
 end 
