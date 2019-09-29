@@ -34,6 +34,7 @@ class Song
       hash[item] = item
       hash
     end
+  end 
     binding.pry
   end 
   
