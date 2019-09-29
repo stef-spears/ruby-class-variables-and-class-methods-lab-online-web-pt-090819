@@ -29,14 +29,11 @@ class Song
     @@genres.uniq 
   end 
   
-  def @@genre_count
+  def genre_count
     @@genres.inject({}) do |hash, item|
       hash[item] = item
-      binding.pry
       hash
-      
     end
-    
   end 
   
   def self.artist_count
