@@ -33,8 +33,9 @@ class Song
     @@genres.inject({}) do |hash, item|
       hash[item] = item
       hash
+      binding.pry
     end
-    binding.pry
+    
   end 
   
   def self.artist_count
