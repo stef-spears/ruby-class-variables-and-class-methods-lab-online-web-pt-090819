@@ -30,7 +30,7 @@ class Song
   end 
   
   def self.genre_count
-    @@genres.each do |genre|
+    @@genres.inject({}) do |memo, |
       
     end
   end 
