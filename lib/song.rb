@@ -34,9 +34,9 @@ class Song
       hash[item] = item
       hash
     end
-    binding.pry
+    
   end 
-  
+  binding.pry
   def self.artist_count
   end 
   
