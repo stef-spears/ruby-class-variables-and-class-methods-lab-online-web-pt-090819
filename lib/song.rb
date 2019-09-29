@@ -34,7 +34,6 @@ class Song
       hash[item] += 1; hash 
     end
   end 
-  binding.pry
   
   
   def self.artist_count
